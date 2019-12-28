@@ -1,0 +1,153 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'gothambook';
+	font-size: 14px;
+
+}
+
+.container-fluid{
+	background-color: $gris;
+}
+
+.header{
+	width: 100%;
+	background-color: white;
+}
+
+img.logo_header{
+	width: 8%;
+	margin: 20px 0 20px 20px;
+}
+
+a.menuTop{
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+
+	i{
+		
+	}
+}
+
+h2{
+	color: $magenta;
+	font-size: 18px;
+}
+
+.foto_grande{
+	width: 100%;
+	height: auto;
+}
+
+.parrafo1{
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 24px;
+	width: 90%;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.parrafo2{
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 18px;
+	margin: 0;
+	
+}
+
+.cardBorder{
+	border-radius: 12px; 
+	border:2px solid $gris_border;
+}
+
+.btn-light{
+	background-color: white;
+	border-radius: 0;
+	color: $magenta;
+	padding: 12px 22px;
+	font-weight: lighter;
+}
+
+.tituloPadding{
+	color: $magenta;
+	padding: 32px;
+	text-align: center;
+	font-size: 16px;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.infoHome{
+	background-color: $gris;
+	border: 1px solid $gris_border;
+	border-radius: 12px;
+	background-color: white;
+	padding: 2px;
+}
+
+.card{
+	border-radius: 12px;
+	border: 2px solid $gris_border;
+	display: table-cell;
+
+}
+
+.cardInfo{
+	border-radius: 12px;
+	width: 80%;
+	border:2px solid $gris_border;
+	padding: 32px;
+}
+
+#menuFooter{
+
+	li{
+
+		a{
+			color: white;
+			text-decoration-line: underline;
+			border-right: solid 1px gray;
+			border-left: solid 1px gray;
+		}
+	}
+}
+
+.footer div a{
+	text-decoration: underline gray;
+	color: white;
+	border-right: solid 1px gray;
+}
+
+.footer div:last-child{
+
+	a{
+		border-right: none;
+	}
+}
+
+@media (max-width: 680px) {
+
+	.footer div a{
+		padding-left: 0;
+		text-decoration: underline gray;
+		color: white;
+		border-right: none;
+	}
+
+	.first-nav-lin-footer{
+		margin-top: 32px;
+	}
+}
+
+
+.bg-color-gray{
+	background-color: #f5f5f5!important;
+}
